@@ -39,4 +39,4 @@ EOF
 
 mv ../infr/.ebextensions/ .
 
-/usr/local/bin/eb create $ebEnv --cname $ebEnv --timeout 60
+eb create $ebEnv --cname $ebEnv --timeout 60
