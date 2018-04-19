@@ -35,7 +35,7 @@ global:
   application_name: ${ebApp}
   default_ec2_keyname: buildMachine
   default_platform: Docker
-  default_region: us-east-2
+  default_region: us-east-2a
   profile: null
   sc: null
 

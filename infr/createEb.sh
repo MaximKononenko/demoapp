@@ -31,7 +31,7 @@ global:
   application_name: ${ebApp}
   default_ec2_keyname: test-aws4-ohio
   default_platform: Docker
-  default_region: us-east-2
+  default_region: us-east-2a
   profile: null
   sc: null
 
