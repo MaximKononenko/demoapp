@@ -43,10 +43,10 @@ EOF
 
 mv ../infr/.ebextensions/ .
 
-/usr/local/bin/eb deploy ${ebEnv} --timeout "60"
+/root/.local/bin/eb deploy ${ebEnv} --timeout "60"
 
 # Check Eb environment status
-/usr/local/bin/eb status | grep Status > "${tmpLog}"
+/root/.local/bin/eb status | grep Status > "${tmpLog}"
 grep -q "Ready" "$tmpLog"
 if [ $? -ne 0 ]; then {
     echo "Eb Env has been updated with error"
