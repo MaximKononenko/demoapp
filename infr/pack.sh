@@ -13,7 +13,7 @@ COPY . /usr/share/nginx/html
 EXPOSE 80
 EOF
 
-ecrlogin=$(aws ecr get-login --no-include-email --region us-east-2)
+ecrlogin=$(/root/.local/bin/aws ecr get-login --no-include-email --region us-east-2)
 sudo $ecrlogin
 
 sudo docker build -t ${ecrAcc}/${ecrRepo} . > "${tmpLog}"
