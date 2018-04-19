@@ -41,7 +41,7 @@ global:
 
 EOF
 
-mv ../infr/.ebextensions/ .
+mv infr/.ebextensions/ .
 
 /root/.local/bin/eb deploy ${ebEnv} --timeout "60"
 
