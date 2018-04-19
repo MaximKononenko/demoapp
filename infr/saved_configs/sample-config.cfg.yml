@@ -1,9 +1,9 @@
 EnvironmentConfigurationMetadata:
   Description: Configuration created from the EB CLI using "eb config save".
-  DateCreated: '1500237894000'
-  DateModified: '1500237894000'
+  DateCreated: '1524160156000'
+  DateModified: '1524160156000'
 Platform:
-  PlatformArn: arn:aws:elasticbeanstalk:us-east-2::platform/Docker running on 64bit Amazon Linux/2.9.0
+  PlatformArn: arn:aws:elasticbeanstalk:us-east-1::platform/Docker running on 64bit Amazon Linux/2.9.2
 OptionSettings:
   aws:elasticbeanstalk:command:
     BatchSize: '30'
@@ -17,7 +17,7 @@ OptionSettings:
   aws:elasticbeanstalk:healthreporting:system:
     SystemType: enhanced
   aws:autoscaling:launchconfiguration:
-    IamInstanceProfile: aws-elasticbeanstalk-ec2-role
+    IamInstanceProfile: demoapp
     EC2KeyName: test-aws4-ohio
     InstanceType: t2.micro
   aws:autoscaling:updatepolicy:rollingupdate:
