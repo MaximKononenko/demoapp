@@ -1,5 +1,8 @@
 # demoapp
-#
+
+# Pls find demo (20min) of executing here: https://youtu.be/HGqouMyOX64
+# Github ref: https://github.com/MaximKononenko/demoapp
+
 # This scripts are developed to deploy environment on AWS using EC2, EBS, ECR, CW and IAM services.
 # 
 # ./app - folder with app files
