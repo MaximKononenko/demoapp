@@ -18,14 +18,6 @@ cat >> Dockerrun.aws.json << EOF
         "ContainerPort": "80"
     }
     ]
-    "Statement": [{
-    "Effect": "Allow",
-    "Action": [
-      "iam:demoapp",
-      "ec2:*"
-    ],
-    "Resource": "*"
-  }]
 }
 EOF
 
