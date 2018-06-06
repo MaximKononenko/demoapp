@@ -38,5 +38,6 @@ global:
 EOF
 
 mv ../infr/.ebextensions/ .
+cp /data/demoapp/note.pem .
 
 ~/.local/bin/eb create $ebEnv --cname $ebEnv --timeout 60
