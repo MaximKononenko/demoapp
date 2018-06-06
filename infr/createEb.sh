@@ -29,7 +29,7 @@ branch-defaults:
     group_suffix: null
 global:
   application_name: ${ebApp}
-  default_ec2_keyname: note.pem
+  default_ec2_keyname: us-east-1
   default_platform: Docker
   default_region: us-east-1
   profile: null
@@ -38,6 +38,5 @@ global:
 EOF
 
 mv ../infr/.ebextensions/ .
-cp /data/demoapp/note.pem .
 
 ~/.local/bin/eb create $ebEnv --cname $ebEnv --timeout 60
