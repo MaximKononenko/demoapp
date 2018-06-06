@@ -4,7 +4,6 @@ ecrRepo=$2
 tmpLog="tmp.log"
 
 cd app
-
 cat >> "Dockerfile" << EOF
 FROM andreptb/maven:latest as BUILD
 WORKDIR /usr/src/
