@@ -30,5 +30,5 @@ OptionSettings:
     MaxSize: '1'
 EnvironmentTier:
   Type: Standard
-  Name: Web
+  Name: demoapp
 AWSConfigurationTemplateVersion: 1.1.0.0
