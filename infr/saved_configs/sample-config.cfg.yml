@@ -18,7 +18,7 @@ OptionSettings:
     SystemType: enhanced
   aws:autoscaling:launchconfiguration:
     IamInstanceProfile: demoapp
-    EC2KeyName: test-aws4-ohio
+    EC2KeyName: us-east-1
     InstanceType: t2.micro
   aws:autoscaling:updatepolicy:rollingupdate:
     RollingUpdateType: Health
@@ -30,5 +30,5 @@ OptionSettings:
     MaxSize: '1'
 EnvironmentTier:
   Type: Standard
-  Name: WebServer
+  Name: Web
 AWSConfigurationTemplateVersion: 1.1.0.0
