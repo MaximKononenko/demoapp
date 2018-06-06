@@ -29,7 +29,7 @@ branch-defaults:
     group_suffix: null
 global:
   application_name: ${ebApp}
-  default_ec2_keyname: test-aws4-ohio
+  default_ec2_keyname: note.pem
   default_platform: Docker
   default_region: us-east-1
   profile: null
