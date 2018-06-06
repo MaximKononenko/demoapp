@@ -27,7 +27,7 @@ OptionSettings:
     Availability Zones: 'Any 2'
     Cooldown: '300'
     MinSize: '1'
-    MaxSize: '1'
+    MaxSize: '3'
 EnvironmentTier:
   Type: Standard
   Name: demoapp
