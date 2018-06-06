@@ -23,8 +23,8 @@ EOF
 
 mkdir .elasticbeanstalk/saved_configs
 mv ../infr/saved_configs/sample-config.cfg.yml .elasticbeanstalk/saved_configs/${ebEnv}-config.cfg.yml
-eb config put ${ebEnv}-config.cfg.yml
-eb config ${ebEnv} --cfg ${ebEnv}-config --timeout 60
+~/.local/bin/eb config put ${ebEnv}-config.cfg.yml
+~/.local/bin/eb config ${ebEnv} --cfg ${ebEnv}-config --timeout 60
 
 # Check Eb environment status
 ###cd ${scriptsDir}/eb/${env} && /usr/local/bin/eb status | grep Status > "${tmpLog}"
